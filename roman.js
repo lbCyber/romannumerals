@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function (e) {
       return "Not an arabic number!"
     }
   }
-
   RomanNumerals.fromRoman = (v) => {
     if (Number.isInteger(v) === false) {
       let res = 0; // Answer value
